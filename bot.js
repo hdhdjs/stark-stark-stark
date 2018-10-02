@@ -1,4 +1,5 @@
-const Discord = require('discord.js');
+
+scord = require('discord.js');
 const client = new Discord.Client();
 const prefix = '.'
 
@@ -7,7 +8,7 @@ client.on('ready', () => {
 
 });
 
-const devs = ['394599264627720239' , '' , '' , ''];
+const devs = ['473980734109909007' , '' , '' , ''];
 const adminprefix = "'";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
@@ -31,4 +32,4 @@ client.on('message', message => {
   }
   });
 
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN)
