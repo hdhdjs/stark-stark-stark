@@ -1,5 +1,5 @@
 
-scord = require('discord.js');
+scord = require('discord.const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = '.'
 
