@@ -1,5 +1,4 @@
-
-scord = require('discord.const Discord = require('discord.js');
+const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = '.'
 
@@ -31,5 +30,6 @@ client.on('message', message => {
       message.channel.sendMessage(`**!   ${argresult}**`)
   }
   });
+
 
 client.login(process.env.BOT_TOKEN)
